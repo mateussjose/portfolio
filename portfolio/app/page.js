@@ -4,9 +4,9 @@ const skillsDevelopment = [
   ["01", "JavaScript", "ES6+, Async, Web", "LANGUAGE", "READY"],
   ["02", "Next.js", "App Router, SSR, Optimization", "FRAMEWORK", "READY"],
   ["03", "React", "Hooks, State Flow, Components", "LIBRARY", "READY"],
-  ["04", "Python", "Computer Vision, Sockets, Scripting", "LANGUAGE", "READY"],
-  ["05", "Java", "POO, Concurrency, Algorithms", "LANGUAGE", "READY"],
-  ["06", "C", "Data Structures, Graphs, Algorithms", "LANGUAGE", "READY"]
+  ["04", "Python", "Computer Vision, Sockets, Scripting", "LANGUAGE", "VERIFIED"],
+  ["05", "Java", "POO, Concurrency, Algorithms", "LANGUAGE", "VERIFIED"],
+  ["06", "C", "Data Structures, Graphs, Algorithms", "LANGUAGE", "VERIFIED"]
 ];
 
 const skillsTools = [
@@ -191,7 +191,7 @@ export default function Home() {
       </section>
 
       <section id="habilidades" className="section content-section skills-section">
-        <SectionHeader number="05" title="HABILIDADES" meta="TYPOGRAPHIC_INVENTORY // NO_GENERIC_ICONS" />
+        <SectionHeader number="03" title="HABILIDADES" meta="COMPETENCIES // HARD SKILLS" />
         <div className="skills-grid">
           <SkillColumn title="DESENVOLVIMENTO" icon="⌘" items={skillsDevelopment} />
           <SkillColumn title="FERRAMENTAS E SISTEMAS" icon="⚒" items={skillsTools} />
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
 
       <section id="projetos" className="section content-section">
-        <SectionHeader number="03" title="PROJETOS" meta="SELECTED_BUILDS // 2026" />
+        <SectionHeader number="04" title="PROJETOS" meta="SELECTED_BUILDS // FINAL YEARS" />
 
         <div className="project-grid">
           {projects.map((project) => (
@@ -226,7 +226,7 @@ export default function Home() {
       <section id="contato" className="section contact-section">
         <div className="contact-grid">
           <div>
-            <div className="section-number">04 // 05</div>
+            <div className="section-number">05 // 05</div>
             <h2>LET&apos;S BUILD<br /><span>SOMETHING.</span></h2>
             <p className="contact-copy">
               Aberto a oportunidades, projetos acadêmicos e experiências que

@@ -54,11 +54,11 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
   font-family: "Courier New", monospace;
   letter-spacing: .12em;
 }
-.brand { font-size: 11px; color: #777; }
+.brand { font-size: 12px; color: #777; }
 .brand span { color: var(--cyan); }
-.nav-links { display: flex; gap: 24px; font-size: 9px; color: #858b89; }
+.nav-links { display: flex; gap: 24px; font-size: 11.5px; color: #858b89; }
 .nav-links a:hover, .back-link:hover { color: var(--cyan); }
-.nav-status { justify-self: end; font-size: 9px; color: #777; }
+.nav-status { justify-self: end; font-size: 11.5px; color: #777; }
 .status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 12px var(--lime); margin-right: 7px; }
 
 .section { min-height: 100vh; position: relative; padding: 120px 9vw 90px; }
@@ -75,7 +75,7 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
   position: relative;
   display: flex; justify-content: space-between;
   max-width: 1280px; margin: 0 auto;
-  font-size: 9px; color: #626968;
+  font-size: 11px; color: #626968;
 }
 .hero-topline span:first-child { color: var(--cyan); }
 .hero-content {
@@ -103,14 +103,14 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
   -webkit-text-stroke: 2px #727777;
 }
 .hero-highlight { color: var(--cyan); font-size: 22px; font-weight: 800; margin: 36px 0 7px; }
-.hero-subtitle { color: #626968; font-size: 10px; }
+.hero-subtitle { color: #626968; font-size: 12px; }
 .hero-data {
   display: flex; gap: 65px; margin-top: 42px;
   border-top: 1px solid var(--line); padding-top: 18px;
 }
 .hero-data div { display: flex; flex-direction: column; gap: 7px; }
-.hero-data span { color: #4f5554; font-size: 8px; }
-.hero-data b { color: #7f8583; font-size: 9px; }
+.hero-data span { color: #4f5554; font-size: 11px; }
+.hero-data b { color: #7f8583; font-size: 12px; }
 .hero-photo-wrap { position: relative; height: 590px; display: flex; align-items: center; justify-content: center; }
 .hero-photo {
   width: min(100%, 600px); height: 600px; object-fit: cover;
@@ -131,8 +131,8 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
   border: 1px solid rgba(0,217,255,.25); padding: 9px 12px;
   background: rgba(0,0,0,.65);
 }
-.scroll-hint { position: absolute; bottom: 36px; left: 11%; color: #737978; font-size: 9px; }
-.hero-ref { position: absolute; bottom: 36px; right: 8%; color: #3f4443; font-size: 8px; }
+.scroll-hint { position: absolute; bottom: 36px; left: 11%; color: #737978; font-size: 11px; }
+.hero-ref { position: absolute; bottom: 36px; right: 8%; color: #3f4443; font-size: 10px; }
 
 .content-section { max-width: 1600px; margin: auto; }
 .section-header {
@@ -141,9 +141,9 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
   padding-bottom: 22px; border-bottom: 1px solid var(--line);
   margin-bottom: 50px;
 }
-.section-number { color: var(--cyan); font-size: 10px; }
+.section-number { color: var(--cyan); font-size: 12px; }
 .section-header h2 { margin: 0; font-size: clamp(38px, 5vw, 72px); letter-spacing: -.04em; }
-.section-header span { color: #555b59; font-size: 8px; }
+.section-header span { color: #555b59; font-size: 12px; }
 
 .panel {
   border: 1px solid var(--line);
@@ -156,13 +156,13 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
 }
 .academic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 .academic-card { padding: 35px; min-height: 330px; }
-.card-code { color: var(--cyan); font-size: 9px; }
-.academic-year { color: #626968; font: 10px "Courier New", monospace; margin-top: 60px; }
+.card-code { color: var(--cyan); font-size: 11px; }
+.academic-year { color: #626968; font: 11.5px "Courier New", monospace; margin-top: 60px; }
 .academic-card h3 { font-size: 34px; margin: 14px 0; }
-.academic-card p, .project-card p { color: #747b79; line-height: 1.8; font-size: 14px; max-width: 650px; }
+.academic-card p, .project-card p { color: #747b79; line-height: 1.8; font-size: 15px; max-width: 650px; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
-.tag-row span { border: 1px solid rgba(0,217,255,.17); color: #78817f; padding: 7px 9px; font-size: 8px; }
-.terminal-strip { margin-top: 28px; border: 1px solid var(--line); padding: 16px 20px; color: #777e7c; font-size: 10px; }
+.tag-row span { border: 1px solid rgba(0,217,255,.17); color: #78817f; padding: 7px 9px; font-size: 11px; }
+.terminal-strip { margin-top: 28px; border: 1px solid var(--line); padding: 16px 20px; color: #777e7c; font-size: 12px; }
 .terminal-strip span { color: var(--cyan); }
 .terminal-strip b { color: var(--lime); font-weight: 400; }
 
@@ -170,25 +170,25 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
 .skill-column { padding: 26px 28px; }
 .panel-title { display: grid; grid-template-columns: 24px 1fr auto; gap: 10px; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .panel-title strong { font-size: 16px; letter-spacing: .08em; }
-.panel-title small { color: #4e5553; font-size: 8px; }
+.panel-title small { color: #4e5553; font-size: 11px; }
 .cyan-icon { color: var(--cyan); }
 .skill-row { min-height: 112px; display: grid; grid-template-columns: 38px 1fr auto; align-items: center; border-bottom: 1px solid rgba(255,255,255,.035); }
 .skill-row:hover { background: rgba(0,217,255,.035); }
-.skill-index { color: #3c4140; font: 10px "Courier New", monospace; }
+.skill-index { color: #3c4140; font: 12px "Courier New", monospace; }
 .skill-main strong { display: block; font-size: 26px; }
-.skill-main small { color: #626967; font: 9px "Courier New", monospace; }
-.skill-meta { text-align: right; color: #454b4a; font-size: 8px; }
+.skill-main small { color: #626967; font: 12px "Courier New", monospace; }
+.skill-meta { text-align: right; color: #454b4a; font-size: 11px; }
 .skill-meta b { display: block; color: var(--lime); margin-top: 10px; font-size: 8px; }
 
 .project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; }
 .project-card { padding: 30px; min-height: 360px; display: flex; flex-direction: column; }
-.project-top { display: flex; justify-content: space-between; color: #4c5351; font-size: 8px; }
+.project-top { display: flex; justify-content: space-between; color: #4c5351; font-size: 10px; }
 .project-top span:first-child { color: var(--cyan); }
 .project-card h3 { font-size: 37px; margin: 65px 0 0; }
-.project-card p { min-height: 75px; }
-.project-link { margin-top: auto; color: var(--cyan); font: 10px "Courier New", monospace; letter-spacing: .13em; }
+.project-card p { min-height: 65px; }
+.project-link { margin-top: auto; color: var(--cyan); font: 11px "Courier New", monospace; letter-spacing: .13em; }
 .project-link:hover { text-decoration: underline; }
-.muted-link { color: #69706e; }
+
 
 .contact-section { padding-top: 140px; border-top: 1px solid var(--line); }
 .contact-grid { max-width: 1250px; margin: auto; display: grid; grid-template-columns: 1.1fr .9fr; gap: 100px; align-items: center; }
@@ -198,9 +198,9 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
 .contact-terminal { padding: 30px; display: flex; flex-direction: column; gap: 24px; }
 .contact-terminal a { font: 11px "Courier New", monospace; color: #a4aaa8; }
 .contact-terminal a:hover { color: var(--cyan); }
-.terminal-head { color: var(--lime); font: 9px "Courier New", monospace; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.terminal-head { color: var(--lime); font: 12px "Courier New", monospace; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .terminal-cursor { color: var(--cyan); animation: blink 1s infinite; }
-footer { max-width: 1250px; margin: 120px auto 0; padding-top: 25px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; color: #484e4d; font-size: 8px; }
+footer { max-width: 1250px; margin: 340px auto 0; padding-top: 25px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; color: #484e4d; font-size: 11px; }
 
 .back-link { justify-self: center; color: #777; font-size: 9px; }
 .hangman-page { min-height: 100vh; }
