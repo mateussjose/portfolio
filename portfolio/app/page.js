@@ -18,6 +18,23 @@ const skillsTools = [
   ["12", "Canva", "Branding", "THEORY", "VERIFIED"]
 ];
 
+const extracurriculars = [
+  {
+    number: "01",
+    title: "JUVENTUDE CODE",
+    description:
+      "Participação na ideação e no desenvolvimento de uma solução tecnológica direcionada aos desafios reais da Comunidade do Pilar. A experiência no bootcamp uniu sólida fundamentação teórica e execução prática, exigindo trabalho em equipe, pensamento analítico e estruturação de projetos para construir uma proposta de impacto social focada nas necessidades locais.",
+    tags: ["BOOTCAMP", "PORTO DIGITAL", "SEBRAE"],
+  },
+  {
+    number: "02",
+    title: "IA PARA APRENDER",
+    description:
+      "Capacitação focada no estudo e na exploração de metodologias para integrar ferramentas de Inteligência Artificial como instrumentos de apoio ao processo de aprendizagem. A oficina forneceu diretrizes teóricas e práticas sobre como utilizar a IA na rotina de estudos para otimizar pesquisas, organizar conceitos complexos e fundamentar a construção do conhecimento de maneira crítica, ética e eficiente.",
+    tags: ["OFICINA", "UNICAP"],
+  },
+];
+
 const projects = [
   {
     code: "PRJ_01",
@@ -47,8 +64,8 @@ const projects = [
   {
     code: "PRJ_04",
     title: "Next Investement",
-    type: "ALGORITHMS / C",
-    description: "Projeto gráfico para desenvolvimento de um app de planejamento e educação financeira.",
+    type: "DESIGN /INTERFACE",
+    description: "Projeto gráfico para desenvolvimento de um aplicativo de planejamento e educação financeira.",
     tags: ["Figma"],
     href: "https://www.figma.com/proto/hOUbO7TeD8A1zGT0Nuyeum/Next-Investment?node-id=12-654&page-id=0%3A1&t=o9LuzyYOsqbJDxqW-1"
   }
@@ -184,9 +201,60 @@ export default function Home() {
           </article>
         </div>
 
+        <div className="extended-academic-grid">
+          <article className="academic-card panel">
+            <div className="card-code">EDU_03 // COMPLETED</div>
+            <div className="academic-year">ADMINISTRATION  EDUCATION</div>
+            <h3>Auxiliar Administrativo</h3>
+            <p>
+              Formação técnica com ênfase teórica em princípios da administração e dinâmicas organizacionais, 
+              unida à vivência prática em escritório voltada para a organização de processos, 
+              controle de informações e resolução de demandas operacionais.
+            </p>
+            <div className="tag-row">
+              <span>MANAGEMENT</span><span>LAUNCH</span><span>DIGITIZATION</span>
+            </div>
+          </article>
+        </div>
+
         <div className="terminal-strip">
           <span>root@mateus:~$</span> cat academic.log
           <b> → learning continuously...</b>
+        </div>
+      </section>
+
+      <section id="extracurriculares" className="section content-section extra-section">
+        <div className="extra-header">
+          <div className="section-number">
+            03 // 06
+          </div>
+          <h2>
+            ATIVIDADES<span>_EXTRAS</span>
+          </h2>
+        </div>
+
+        <div className="extra-list">
+          {extracurriculars.map((item) => (
+            <article className="extra-item" key={item.number}>
+              <div className="extra-number">
+                {item.number}
+              </div>
+
+              <div className="extra-info">
+                <div className="extra-meta">
+                  <span>ACTIVITY_{item.number}</span>
+                </div>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                
+                <div className="tag-row">
+                  {item.tags.map((tag) => (
+                    <span key={tag}>{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -206,7 +274,7 @@ export default function Home() {
             <article className="project-card panel" key={project.code}>
               <div className="project-top">
                 <span>{project.code}</span>
-                <span>● {project.type}</span>
+                <span>{project.type}</span>
               </div>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
