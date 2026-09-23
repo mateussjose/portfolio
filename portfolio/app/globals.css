@@ -218,20 +218,20 @@ footer, .contact-terminal, .game-counter, .log-label, .back-link {
 .terminal-cursor { color: var(--cyan); animation: blink 1s infinite; }
 footer { max-width: 1250px; margin: 340px auto 0; padding-top: 25px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; color: #484e4d; font-size: 11px; }
 
-.back-link { justify-self: center; color: #777; font-size: 9px; }
+.back-link { justify-self: center; color: #777; font-size: 11.5px; }
 .hangman-page { min-height: 100vh; }
 .hangman-shell { max-width: 1450px; margin: auto; padding: 125px 6vw 80px; }
 .game-heading { display: flex; justify-content: space-between; align-items: end; margin: 55px 0 45px; }
 .game-heading h1 { font-size: clamp(55px, 8vw, 105px); line-height: .85; margin: 18px 0 0; letter-spacing: -.06em; }
 .game-heading h1 span { color: var(--cyan); }
-.game-counter { text-align: right; color: #555b59; font-size: 9px; }
+.game-counter { text-align: right; color: #555b59; font-size: 12px; }
 .game-counter strong { color: var(--white); font-size: 28px; }
 .game-grid { display: grid; grid-template-columns: 1fr 350px; gap: 25px; }
 .game-board { padding: 35px; min-height: 620px; }
 .word-display { min-height: 190px; display: flex; justify-content: center; align-items: center; gap: 13px; flex-wrap: wrap; font: 800 clamp(34px, 5vw, 70px) "Courier New", monospace; color: var(--white); }
 .word-display span { min-width: 45px; text-align: center; border-bottom: 2px solid var(--cyan); }
 .input-area { max-width: 650px; margin: 0 auto 30px; }
-.input-area label { display: block; color: #555b59; font: 9px "Courier New", monospace; margin-bottom: 8px; }
+.input-area label { display: block; color: #555b59; font: 11.5px "Courier New", monospace; margin-bottom: 8px; }
 .letter-form { display: grid; grid-template-columns: 90px 1fr; gap: 10px; }
 .letter-form input {
   width: 90px; height: 65px; text-align: center; text-transform: uppercase;
@@ -241,14 +241,14 @@ footer { max-width: 1250px; margin: 340px auto 0; padding-top: 25px; border-top:
 .letter-form input:focus { border-color: var(--cyan); }
 .letter-form button, .restart-button {
   border: 1px solid rgba(0,217,255,.4); background: var(--cyan-dim);
-  color: var(--cyan); cursor: pointer; letter-spacing: .1em; font-size: 10px;
+  color: var(--cyan); cursor: pointer; letter-spacing: .1em; font-size: 11.5px;
 }
 .letter-form button:hover, .restart-button:hover { background: rgba(0,217,255,.25); }
 .letter-form button:disabled { opacity: .3; cursor: not-allowed; }
 .keyboard { max-width: 720px; margin: auto; display: grid; grid-template-columns: repeat(9, 1fr); gap: 7px; }
 .keyboard button {
   height: 42px; border: 1px solid var(--line); background: #070909; color: #858b89;
-  cursor: pointer; font: 11px "Courier New", monospace;
+  cursor: pointer; font: 12.5px "Courier New", monospace;
 }
 .keyboard button:hover:not(:disabled) { color: var(--cyan); border-color: rgba(0,217,255,.45); }
 .keyboard button.correct { color: var(--cyan); border-color: rgba(0,217,255,.35); background: var(--cyan-dim); }
@@ -257,13 +257,13 @@ footer { max-width: 1250px; margin: 340px auto 0; padding-top: 25px; border-top:
 .game-sidebar { display: flex; flex-direction: column; gap: 18px; }
 .attempts-panel { padding: 24px; }
 .attempt-section { padding-top: 22px; }
-.log-label { font-size: 8px; color: #555b59; }
+.log-label { font-size: 11.5px; color: #555b59; }
 .attempt-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; min-height: 29px; }
 .chip { padding: 7px 9px; font: 10px "Courier New", monospace; border: 1px solid var(--line); }
 .chip.correct { color: var(--cyan); border-color: rgba(0,217,255,.25); }
 .chip.wrong { color: var(--danger); border-color: rgba(255,91,91,.25); }
 .result-panel { padding: 25px; min-height: 180px; display: flex; flex-direction: column; justify-content: center; gap: 9px; }
-.result-panel span { color: #555b59; font: 8px "Courier New", monospace; }
+.result-panel span { color: #555b59; font: 11.5px "Courier New", monospace; }
 .result-panel strong { font-size: 21px; }
 .result-panel small { color: #747b79; line-height: 1.6; }
 .result-panel em { color: var(--cyan); font: 700 24px "Courier New", monospace; font-style: normal; }

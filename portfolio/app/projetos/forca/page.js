@@ -81,7 +81,7 @@ export default function ForcaPage() {
         <Link className="brand" href="/">
           <span>SYSTEM_01</span> // MATEUS.BUILDING
         </Link>
-        <Link className="back-link" href="/#projetos">← BACK TO ARCHIVE</Link>
+        <Link className="back-link" href="/#projetos">← BACK TO HOME</Link>
         <div className="nav-status"><span className="status-dot" /> GAME_SESSION</div>
       </nav>
 
@@ -110,7 +110,7 @@ export default function ForcaPage() {
             </div>
 
             <div className="input-area">
-              <label htmlFor="letter">ENTER LETTER</label>
+              <label htmlFor="letter">DIGITE A LETRA</label>
               <div className="letter-form">
                 <input
                   id="letter"
@@ -122,7 +122,7 @@ export default function ForcaPage() {
                   placeholder="_"
                 />
                 <button onClick={() => submitLetter(input)} disabled={!!result || !input}>
-                  SUBMIT →
+                  ENVIAR →
                 </button>
               </div>
             </div>
@@ -148,19 +148,19 @@ export default function ForcaPage() {
           <aside className="game-sidebar">
             <div className="panel attempts-panel">
               <div className="panel-title">
-                <strong>ATTEMPTS_LOG</strong>
+                <strong>REGISTRO_DE_TENTATIVAS</strong>
                 <small>[{String(used.length).padStart(2, "0")}]</small>
               </div>
 
               <div className="attempt-section">
-                <span className="log-label">CORRECT</span>
+                <span className="log-label">CORRETAS</span>
                 <div className="attempt-chips">
                   {correct.length ? correct.map((l) => <b className="chip correct" key={l}>{l}</b>) : <small>—</small>}
                 </div>
               </div>
 
               <div className="attempt-section">
-                <span className="log-label">INCORRECT</span>
+                <span className="log-label">INCORRETAS</span>
                 <div className="attempt-chips">
                   {wrong.length ? wrong.map((l) => <b className="chip wrong" key={l}>{l}</b>) : <small>—</small>}
                 </div>
@@ -171,8 +171,8 @@ export default function ForcaPage() {
               {!result ? (
                 <>
                   <span>MISSION_STATUS</span>
-                  <strong>GUESS THE WORD</strong>
-                  <small>Use the keyboard or type one letter.</small>
+                  <strong>ADIVINHE A PALAVRA</strong>
+                  <small>Use o teclado ou digite uma letra.</small>
                 </>
               ) : result === "win" ? (
                 <>
