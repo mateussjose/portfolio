@@ -119,9 +119,10 @@ export default function Home() {
 
         <div className="nav-links">
           <a href="#academica">01 / FORMAÇÃO</a>
-          <a href="#habilidades">02 / HABILIDADES</a>
-          <a href="#projetos">03 / PROJETOS</a>
-          <a href="#contato">04 / CONTATO</a>
+          <a href="#extracurriculares">02 / ATIVIDADES</a>
+          <a href="#habilidades">03 / HABILIDADES</a>
+          <a href="#projetos">04 / PROJETOS</a>
+          <a href="#contato">05 / CONTATO</a>
         </div>
 
         <div className="nav-status">
@@ -133,7 +134,7 @@ export default function Home() {
         <div className="hero-grid" />
 
         <div className="hero-topline">
-          <span>● SYSTEM_01 // 01 / 05</span>
+          <span>● SYSTEM_01 // 00 / 05</span>
           <span>BUILDING_CYCLE [v2026.2]</span>
         </div>
 
@@ -169,7 +170,7 @@ export default function Home() {
       </section>
 
       <section id="academica" className="section content-section">
-        <SectionHeader number="02" title="FORMAÇÃO" meta="EDUCATION // PROGRESS" />
+        <SectionHeader number="01" title="FORMAÇÃO" meta="EDUCATION // PROGRESS" />
 
         <div className="academic-grid">
           <article className="academic-card panel">
@@ -226,7 +227,7 @@ export default function Home() {
       <section id="extracurriculares" className="section content-section extra-section">
         <div className="extra-header">
           <div className="section-number">
-            03 // 06
+            02 // 06
           </div>
           <h2>
             ATIVIDADES<span>_EXTRAS</span>
